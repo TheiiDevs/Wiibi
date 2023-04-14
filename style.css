@@ -1,0 +1,2510 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    }
+
+
+body {
+    padding-top: 0px;
+    font-family: 'Space Grotesk',  sans-serif;
+}
+
+ /* this is overlay dropdown when the menu box is clicked */
+.overlay {
+    display: none;
+
+}
+
+
+button {
+    border: none;
+    background: none
+}
+
+
+
+a {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+
+#main-icon {
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* .ghostswitch-logobox {
+    width: 104%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Verdana', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 132.03%;
+    color: #FABB05;
+}
+ */
+nav {
+    height: 65px;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: sticky;
+    top: 0;
+    background-color: #FFFFFF;
+    z-index: 1;
+    box-shadow: 0px 4px 4px rgba(217, 217, 217, 0.24);
+}
+
+.nav-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-top: 17px;
+
+}
+
+
+.pd-down-arrow {
+    position: relative;
+    top: 4px;
+}
+
+
+.firstlinks {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 132.03%;
+    color: #222222;
+    padding-bottom: 18px;
+}
+
+.firstlinks:hover {
+    color: #BD000D;
+}
+
+/* this is the css for the product dropdown on hover */
+#product-dropdown {
+    display: none;
+}
+
+#product-dropdown {
+    position: absolute;
+    width: 204px;
+    height: 129px;
+    background-color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 132.03%;
+    box-shadow: 0px -1px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+    margin-top: 18px;
+    padding: 18px;
+}
+
+.comining-soon {
+    position: relative;
+    top: 2px;
+    margin-left: 5px;
+}
+
+
+.ga-drp-box {
+    display: flex;
+}
+
+
+.pd-main-comingsoon {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 6px;
+    line-height: 132.03%;
+    color: #FFFFFF;
+    text-align: center;
+    width: 56px;
+    height: 12px;
+    background-color: #4285F4;
+    border-radius: 10px;
+    padding-top: 2.7px;
+    margin-left: 12px;
+}
+
+
+
+#product-dropdown a {
+    display: block;
+    color: #222222;
+}
+
+#product-dropdown a:hover {
+    color: #BD000D;
+}
+
+
+.pd-ghostSL {
+    margin-top: 20PX;
+}
+
+.products:hover #product-dropdown {
+    display: block;
+}
+ 
+/* this is the small icone firstlink css */
+#small-screen-firstlink {
+    display: none;
+    width: 42%;
+}
+
+.main-smallscreen-menubox {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.first-main-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 110px;
+}
+
+
+
+
+.first-main-box div h1 {
+    position: relative;
+    bottom: 35px;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 132.03%;
+    color: #4D4D4D;
+}
+
+/* first span sytles */
+span {
+    display: block;
+}
+
+#yellow-ghost {
+    display: inline;
+    color: #BD000D;
+}
+
+.talk-to-us-parentbox {
+    display: flex;
+    align-items: center;
+}
+
+.talk-to-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 256px;
+    height: 80px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 132.03%;
+    background: #222222;
+    color: #fff;
+    box-shadow: 0px 13px 4px #BFBFBF;
+}
+
+.talk-to-us:hover {
+    background-color: #323232;
+}
+
+#how-it-workslink {
+    width: 179px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 132.03%;
+    color: #222222;
+    border: 1px solid #E2E2E2;
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 10px;
+    margin-left: 25px;
+    transition: background-color 0.9s;
+}
+
+#how-it-workslink:hover {
+    background-color: #D9D9D9;
+}
+
+#video_circle {
+    position: relative;
+    top: 5px;
+}
+
+#phone-design {
+    width: 100%;
+}
+
+.second-main-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    height: auto;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 132.03%;
+    margin-bottom: 80px;
+}
+
+.the-hive {
+    animation-name: hive;
+    animation-duration: 1.5s;
+}
+
+@keyframes hive {
+    0% {
+        transform: translateX(-400px)
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+
+#family-image {
+    width: 100%;
+    height: auto;
+    /* position: relative;
+    bottom: 5px; */
+}
+
+
+#reason-box {
+    display: flex;
+    flex-direction: column ;
+    width: 41%;
+    height: 450px;
+    justify-content: space-between;
+    /* position: relative;
+    bottom: 20px;
+    right: 20px; */
+}
+
+.reasons {
+    display: flex;
+    align-items: center;
+}
+
+.reasons p {
+    margin-left: 22px;
+}
+
+
+.reasons span {
+    display: inline;
+}
+
+
+
+#ourservices {
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 132.03%;
+    margin-bottom: 40px;
+}
+
+/* this is the css for the third main box */
+
+.third-main-box-one {
+    width: 70.63%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    margin-bottom: 5%;
+}
+
+.tiles {
+    box-shadow: 0px 0px 0px #EDEDED;
+    transition: box-shadow 0.5s;
+}
+
+.tiles:hover {
+    box-shadow: 0px 13px 3px #EDEDED;
+}
+
+
+.tile-images {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.ourservics-minibox {
+    padding: 20px;
+    background-color: rgba(245, 245, 245, 0.31);
+}
+
+.third-main-box-one h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 132.03%;
+    color: #222222;
+    margin-bottom: 7px;
+
+}
+
+.third-main-box-one p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 132.03%;
+    color: #989898;
+
+}
+
+.third-main-box-one p:first-child, .third-main-box-one p:nth-child(2) {
+    margin-right: 12px;
+}
+
+.third-main-box-one a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 132.03%;
+    color:#4D4D4D;
+}
+
+.third-main-box-one a:hover {
+    color: #BD000D;
+
+}
+
+.third-main-box-one a:hover .wine-right-arrow {
+    display: inline-block;
+}
+
+.third-main-box-one a:hover .black-right-arrow {
+    display: none;
+}
+
+
+.wine-right-arrow {
+    display: none;
+}
+
+
+#ourproducts-section {
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 132.03%;
+    margin-bottom: 38px;
+}
+
+
+.ourproduct-firtsbox {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    width: 95%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.ourproduct-firstboxinner1 {
+    width: 28%;
+    height: auto;
+}
+
+.ourproduct-firstboxinner1 p {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 152.53%;
+    color: #222222;
+    margin-bottom: 54px;
+
+}
+
+.ourproduct-firstboxinner1 a {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 152.53%;
+    color: #222222; 
+    padding: 25px 61px;
+    background-color: #F5F5F5;
+}
+
+.ourproduct-firstboxinner1 a:hover {
+    color: #BD000D;
+}
+
+
+.ourproduct-firstboxinner2 {
+    width: 69.54%;
+    height: auto;
+    text-align: center;
+    background-color: #BD000D;
+    padding-bottom: 72px;
+
+}
+
+#ghostpicture {
+    display: none;
+}
+
+.ourproduct-firstboxinner2 h2 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 132.03%;
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.ourproduct-firstboxinner2 p {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 132.03%;
+    color: #fff;
+    margin-bottom: 100px;
+}
+
+
+
+.ourproduct-firstboxinner2 a {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 152.53%;
+    color: #222222; 
+    padding: 25px 61px;
+    background-color: #fff;
+}
+
+.ourproduct-firstboxinner2 a:hover {
+    color: #BD000D;
+}
+
+
+.ourproduct-secondbox {
+    display: flex;
+    justify-content: right;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    width: 95%;
+    margin: 59px auto 132px;
+    height: 701px;
+    padding: 30px 90px;
+    background-image: url(img/Mask\ group\ \(15\).png);
+    background-size: cover;
+}
+
+
+
+
+
+
+.switch-airbox {
+    display: flex;
+    position: relative;
+    right:  20px;
+}
+
+
+#littleghost2 {
+    display: none;
+}
+
+.ourproduct-secondbox h2 {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 132.03%;
+    color: #4D4D4D;
+    margin-bottom: 12px;
+
+}
+
+.ourproduct-secondbox p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 152.53%;
+    color: #4D4D4D;
+    margin-bottom: 60px;
+
+}
+
+.ourproduct-secondbox a {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 152.53%;
+    color: #222222;
+    padding: 25px 61px;;
+    background-color: #fff;
+}
+
+.ourproduct-secondbox a:hover {
+    color: #BD000D;
+}
+
+
+#smatlock {
+    display: none;
+}
+
+ /* this is the testimony css */
+
+.testimonals {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 132.03%;
+    text-align: center;
+}
+
+
+.main-slidebox {
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    overflow-scrolling: touch;
+}
+
+
+
+
+.testimonals-container {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+
+.each-testimony {
+    display: none;
+}
+
+
+.personal-testinony {   
+    width: 561px;
+    height: 336px;
+    padding: 44px 28px 0px;
+    background: #FFFFFF;
+    border: 1px solid #E2DFDF;
+    box-shadow: 0px 14px 9px -9px #F3F3F3;
+}
+
+.testimony-p {
+    /* width: 498px; */
+    /* height: 208px; */
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    /* width: 88%; */
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 188.03%;
+    color: #323232;
+    margin-bottom: 60px;
+}
+
+
+.testimony-name {
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 188.03%;
+    color: #222;
+
+}
+
+   /* Fading animation */
+.test-slides {
+    animation-name: slides;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes slides {
+    0% {
+      transform: translateX(380px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+}
+
+.color-dots {
+    cursor: pointer;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #D9D9D9;
+}
+
+.active, .color-dots:hover {
+    background-color: #222222;
+  }
+
+
+.left-arrow {
+    width: 82px;
+    height: 82px;
+    display: inline-block;
+    background: url(img/Group\ 146\ \(1\).png);
+}
+
+
+
+
+.right-arrow {
+    width: 82px;
+    height: 82px;
+    display:inline-block;
+    background: url(img/Group\ 145\ \(2\).png);
+}
+
+
+
+.right-arrow:hover {
+    
+}
+
+
+
+.the-arrows {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    /* display: block; */
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 114px;
+}
+
+.the-arrows:active {
+    color: #FABB05;
+}
+
+#dots-box {
+    width: 79px;
+    position: relative;
+    left: 58px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+
+/* This is the frequently asked question css section */
+
+.faq {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 132.03%;
+    text-align: center;
+    margin-bottom: 58px;
+}
+
+.faqboxes {
+    display: flex;
+    /* justify-content: center; */
+    width: 60%;
+    margin: auto;
+    padding-top: 28px;
+    padding-bottom: 18px;
+    padding-left: 100px;
+    background-color: #F0F0F0;
+    margin-bottom: 30px;
+
+}
+
+.faqboxes:hover {
+    cursor: pointer;
+}
+
+
+.faqboxes.active   .answers {
+    display: block;
+}
+
+.faqboxes.active   .pluscircle {
+    display: none;
+}
+
+.faqboxes.active   .minuscircle {
+    display: block;
+}
+
+.pluscircle {
+    width: 38px;
+    height: 38px;
+}
+
+
+.minuscircle {
+    display: none;
+    width: 38px;
+    height: 38px;
+}
+
+
+.questionbox {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    margin-left: 4%;
+}
+
+
+.questions {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 132.03%;
+    color: #222222;
+    padding-top: 8px;
+    margin-bottom: 15px;
+    
+}
+
+.questionbox p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 170.53%;
+    color: #4D4D4D;
+    margin-bottom: 5px;
+}
+
+.answers {
+    display: none;
+}
+
+
+.drop {
+    display: block;
+}
+
+.undrop{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.info-download-box {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.info-download-box a {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    color: #4285F4;
+}
+
+.info-download-box img {
+    position: relative;
+    top: 9px;
+    margin-right: 6px;
+}
+
+
+.are-you-ready {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 73%;
+    margin: 88px auto 82px;
+}
+
+.are-you-ready h2 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 132.03%;
+}
+
+#upgrade {
+    color: #000;
+}
+
+.are-you-ready a {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 132.03%;
+    padding: 20px 70px;
+    color: #FFFFFF;
+    background-color: #222222;
+    margin-bottom: 18px;
+}
+
+
+.are-you-ready span {
+    display: inline;
+}
+
+
+
+
+ /* this is the css codes for the Ghost-s page */
+ .pd-down-arrow {
+    position: relative;
+    top: 4px;
+    left: 6px;
+}
+
+.ghost-s_2nd_main {
+    display: flex;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.leftof2nd-main {
+    padding: 30px 0px 0px 60px;
+}
+
+
+
+.ghost-s_2nd_main  h1 {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 132.03%;
+    color: #222222;
+    margin-bottom: 20px;
+}
+
+
+.ghost-s_2nd_main p {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 132.03%;
+    color: #727171;
+    margin-bottom: 20px;
+}
+
+.ghost-s_2nd_main a.watch {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 132.03%;
+    color: #323232;
+}
+
+.mobile-watch-review {
+    display: none;
+}
+
+
+
+.vid {
+    position: relative;
+    top: 7px;
+}
+
+.threelinks-box {
+    margin-top: 20px;
+}
+
+.mobilethreelink-box {
+    display: none;
+}
+
+.threeside-links {
+    margin-right: 27px ;
+}
+
+
+.yellowlink {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 132.03%;
+    color: #FFCE31;
+}
+
+
+.blacklinks {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 132.03%;
+    color: #323232;
+}
+
+#talk {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 132.03%;
+    color: #323232;
+}
+
+.whats-and-phone {
+    position: relative;
+    top: 7px;
+    left: 3px;
+}
+
+   /* ghost-s third box css codes */
+
+
+.ghost-s-thirdbox {
+    width: 85%;
+    margin: auto;
+    margin-bottom: 150px;
+}
+
+.ghost-s-thirdbox h2 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 132.03%;
+    color: #222222;
+    margin-bottom: 30px;
+
+}
+
+
+.ghost-s-thirdbox p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 192%;
+    color: #222222;
+}
+
+
+#thirdbox-2ndp {
+    margin-top: 40px;
+}
+
+#thirdboxp-formobile {
+    display: none;
+    
+}
+
+/* this is for ghost-s fourth main box */
+
+.ghost-s-fourthmainbox {
+    display: flex;
+    justify-content: space-between;
+    background-color: #E8F0FE;
+    padding: 47px 100px 0px 100px;
+    margin-bottom: 100px;
+}
+
+.ghs-4thfirst-inner {
+    padding-top: 113px;
+}
+
+
+.ghs-4thfirst-inner h2 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 132.03%;
+    color: #222222;
+    margin-bottom: 80px;
+}
+
+.ghs-4thfirst-inner div h3 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFCE31;
+}
+
+.ghs-4thfirst-inner div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.ghs-4thfirst-inner div p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 132.03%;
+    color: #222222;
+    margin-left: 25px;
+}
+
+.ghost-s-fourthmainbox div img {
+    display: block;
+}
+
+.ghs-howitworksmobile {
+   display: none; 
+}
+
+
+/* this is for the fifth main box for ghost- s*/ 
+
+.ghs-fifthmainbox {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    margin-bottom: 130px;
+}
+
+.ghs-fifthmainbox h2 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 192%;
+    color: #222222;
+    margin-bottom: 20px;
+}
+
+.ghs-fifthmainbox div p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 192%;
+    color: #222222; 
+    margin-bottom: 24px;
+}
+
+.ghs-fifthmainbox div a {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 192%;
+    color: #FCFCFC;
+    background-color: #000000;
+    padding: 12px 24px;
+}
+
+.ghs-fifthmainbox div a:hover {
+    background-color: #4D4D4D;
+    color: whitesmoke;
+}
+
+
+.ght-fifthmain-2ndbox {
+    width: 100%;
+    margin-left: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* this is the css design for the  footer */
+
+footer {
+    padding-top: 9%;
+    background-color: #323232;
+    padding-bottom: 5%;
+}
+
+.footer-box {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    color: #FFFFFF;
+}
+
+
+
+
+.ghostswitch-footer-logobox {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Verdana', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 132.03%;
+    color: #FFFFFF;
+}
+
+#mobile-footer-icon {
+    display: none;
+}
+
+.footer-box h3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 169.53%;
+    color: #BD000D;
+    margin-bottom: 20px;
+}
+
+
+.footerservice-box a span {
+    margin-bottom: 20px;
+}
+
+.footer-box a {
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 169.53%;
+    margin-bottom: 15px;
+}
+
+.footer-box p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 169.53%;
+    margin-bottom: 15px;
+}
+
+
+.products-services {
+    display: flex;
+    justify-content: space-between;
+    width: 21%;
+}
+
+.footerproduct-box a {
+    display: block;
+}
+
+#call-us {
+    margin-top: 40px;
+}
+
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+}
+
+
+.footericons {
+    margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* this is the media quary for mobile devices */ 
+
+@media only screen and (max-width: 1211px) {
+
+
+/* .ghostswitch-logobox {
+    width: 105px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Verdana', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 6px;
+    font-size: 12px;
+    line-height: 132.03%;
+    color: #BD000D;
+} */
+
+
+#main-icon {
+    display: flex;
+    align-items: center;
+}
+
+#ghostss-icon {
+    font-family: 18px;
+}
+
+
+
+#main-landing-icon {
+    width: 21px;
+    height: 26px;
+}
+
+
+    .overlay {
+        width: 100%;
+        height: 0;
+        position: fixed;
+        display: block;
+        background: linear-gradient(180deg, #BD000D 0%, #260003 100%);
+        color: #FFFFFF;
+        z-index: 2;
+        padding: 0px 20px;
+        margin-top: 0px;
+        overflow-y: hidden;
+        transition: 0.5s;
+        transition: 1.5s;
+}  
+
+
+
+
+
+.overlay-content a {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 132.03%;
+    color: #fff;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.closeboottn {
+    position: relative;
+    left: 90%;
+}
+
+
+#dropbtn {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 132.03%;
+    color: #fff;
+    background: none;
+    border: none;
+    margin-bottom: 28px;
+}
+
+
+
+.inneroverlay .inner-content {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 132.03%;
+    margin-bottom: 25px;
+}
+
+.inneroverlay {
+    /* visibility: hidden;
+    opacity: 0; */
+
+    display: none;
+}
+
+
+.show {
+   /*  visibility: visible;
+    opacity: 1; */
+
+    display: block;
+}
+
+
+.drop-arrow {
+    transform: rotate(180deg);
+    transition: 0.2s ease;
+}
+
+
+.overlay-content {
+        position: relative;
+        height: 100%;
+
+    }
+
+.comingsoon-icon {
+    display: inline-block;
+    position: relative;
+    bottom: 3px;
+    left: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 6px;
+    line-height: 132.03%;
+    width: 56px;
+    color: #FFFFFF;
+    padding: 2px 7px;
+    text-align: center;
+    background: #4285F4;
+    border-radius: 10px;
+}
+
+
+
+
+
+    #main-icon {
+        width: 95px;
+        height: auto;
+        padding-top: 6px;
+        font-size: 12px;
+    }
+ 
+    nav {
+        height: 51px;
+        align-items: self-start;
+        padding-top: 2%;
+        z-index: 1;
+    }
+
+
+    .nav-icons { 
+        display: none;
+    }
+
+    #small-screen-firstlink {
+        display: block;
+        margin-top: 9px;
+    }
+
+    .mobile-menucross {
+        width: 22.5px;
+        height: 22.5px;
+        display: grid;
+        grid-template-columns: 8px 8px;
+        grid-template-rows: 8px 8px;
+        grid-column-gap: 4px;
+        grid-row-gap: 4px;
+    }
+    
+    .menulittleboxs {
+        background-color: #BD000D;
+    }
+
+    .first-main-box {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        margin-top: 66px;
+
+    }
+
+    .inner-main{
+        width: 338px;
+        padding-left: 23px;
+        margin-bottom: 40px;
+        animation-name: innermain;
+    }
+
+    
+
+
+    #phone {
+        width: 14.38px;
+        height: 14.38px;
+        margin-left: 9px;
+    }
+
+    #video_circle {
+        width: 11.67px;
+        height: 11.67px;
+        position: relative;
+        top: 3px;
+    }
+
+
+
+    .first-main-box div h1 {
+        font-size: 30px;
+    }
+
+    .talk-to-us {
+        display: flex;
+        width: 160px;
+        height: 50px;
+        font-size: 10px;
+    }
+
+    #how-it-workslink {
+        width: 122px;
+        height: 34px;
+        font-size: 10px;
+        padding-top: 10px;
+        border: none;
+        margin-left: 11px;
+    }
+
+.pd-box {
+    width: 85%;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+    #phone-design {
+        width: 80%;
+        height: auto;
+        margin: auto;
+    }
+
+
+    .why-ghost {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 132.03%;
+        margin: 45px 0px 24px 0px;
+    }
+
+
+ /*    .second-main-box {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+        margin: 0;
+        max-height: 659px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 132.03%;
+        margin-top: 92px;
+        margin-bottom: 73px;
+    } */
+
+    .second-main-box {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        width: 85%;
+        height: auto;
+        margin: auto;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 132.03%;
+        margin-bottom: 54px;
+    }
+
+
+    #home-connection-image {
+        position: relative;
+        right: 0px;
+        text-align: center;
+        bottom: 0px;
+        margin-bottom: 38px;
+    }
+
+    #family-image {
+        width: 294.33px;
+        height: 314px;
+        margin-bottom: 0px;
+    }
+    
+  /*   #reason-box {
+        display: flex;
+        flex-direction: column ;
+        height: 292px;
+        text-align: left;
+        justify-content: space-between;
+        margin-bottom: 0px;
+        
+    } */
+
+    #reason-box {
+        display: flex;
+        flex-direction: column ;
+        text-align: left;
+        width: 73%;
+        height: auto;
+        justify-content: space-between;
+        margin-bottom: 0px;
+        /* position: relative;
+        bottom: 20px;
+        right: 20px; */
+    }  
+
+
+
+    
+    
+    .reasons {
+        display: flex;
+        align-items: center;
+    }
+    
+    .mid {
+        margin-bottom: 28px;
+    }
+
+
+
+
+
+    .reason-image {
+        width: 54px;
+        height: 54px;
+    }
+
+    .reasons p {
+        margin-left: 20px;
+    }
+
+
+    #ourservices {
+        font-size: 20px;
+    }
+
+/* this is for the third box */
+
+.third-main-box-one {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    margin-bottom: 5%;
+}
+
+
+.tiles {
+    width: 100%;
+    box-shadow: 0px 0px 0px #EDEDED;
+    transition: box-shadow 0.5s;
+    margin-bottom: 33px;
+}
+
+.ourservics-minibox {
+    padding: 20px;
+    background-color: rgba(245, 245, 245, 0.31);
+}
+
+.third-main-box-one h3{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 132.03%;
+    color: #222222;
+    margin-bottom: 7px;
+
+}
+
+.third-main-box-one p {
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 132.03%;
+    color: #989898;
+
+}
+
+.third-main-box-one p:first-child, .third-main-box-one p:nth-child(2) {
+    margin-right: 12px;
+}
+
+.third-main-box-one a {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 132.03%;
+    color:#4D4D4D;
+}
+
+.red-right-arrow, .black-right-arrow {
+    width: 8.5px;
+    height: 6.98px;
+}
+
+#ourproducts-section {
+    font-size: 20px;
+}
+
+
+.ourproduct-firtsbox {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    width: 85%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.ourproduct-firstboxinner1 {
+    display: none;
+}
+
+.ourproduct-firstboxinner2 {
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+
+.ourproduct-firstboxinner2 h2 {
+    font-size: 16px;
+    margin-top: 28px;
+    margin-bottom: 14px;
+
+}
+
+.ourproduct-firstboxinner2 p {
+    font-size: 12px;
+    margin-bottom: 32px;
+}
+
+
+
+.ourproduct-firstboxinner2 a {
+    font-size: 10px;
+    padding: 16px 23px;
+ 
+}
+
+
+#ghostpicture1 {
+    display: none;
+}
+
+#ghostpicture {
+    display: block;
+    position: relative;
+    left: 39%;
+}
+
+.switch-airbox {
+    display: flex;
+    position: relative;
+    right:  2px;
+}
+
+
+.ourproduct-secondbox {
+    display: flex;
+    justify-content: right;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    width: 85%;
+    margin: auto;
+    height: auto;
+    padding: 30px 0px;
+    background-image: url(img/Mask\ group\ \(16\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+}
+
+.ourproduct-secondbox h2 {
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 132.03%;
+    color: #4D4D4D;
+    margin-bottom: 0px;
+
+}
+
+.ourproduct-secondbox p {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 152.53%;
+    color: #4D4D4D;
+    margin-bottom: 60px;
+
+}
+
+.ourproduct-secondbox a {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 152.53%;
+    color: #222222;
+    padding: 10px 14px;;
+    background-color: #fff;
+}
+
+
+#little-ghost {
+    display: none;
+}
+
+
+#littleghost2 {
+    display: block;
+    position: relative;
+    right: 0px;
+    top: 0px;
+}
+
+
+#smatlock {
+    display: block;
+    width: 85%;
+    height: auto;
+    margin: auto;
+    
+}
+
+.testimonals {
+    font-size: 20px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+/* this is for the testimony slides */
+
+.testimonals-container {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+    margin-top: 50px;
+    margin-bottom: 7px;
+    overflow: hidden;
+}
+
+
+.each-testimony {
+    display: none;
+}
+
+
+.personal-testinony {   
+    width: 85%;
+    height: auto;
+    margin: auto;
+    padding: 21px;
+    background: #FFFFFF;
+    border: 1px solid #E2DFDF;
+    box-shadow: 0px 14px 9px -9px #F3F3F3;
+    margin-bottom: 21px;
+}
+
+.testimony-p {
+    /* width: 498px; */
+    /* height: 208px; */
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    /* width: 88%; */
+    text-align: center;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 188.03%;
+    color: #323232;
+    margin-bottom: 20px;
+}
+
+
+.testimony-name {
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 188.03%;
+    color: #4D4D4D;
+
+}
+
+   /* Fading animation */
+.test-slides {
+    animation-name: slides;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes slides {
+    0% {
+      transform: translateX(400px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+}
+
+.the-arrows {
+    width: 85%;
+    margin: auto;
+    display: normal;
+    /* display: block; */
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin-bottom: 71px;
+}
+
+#left-and-right {
+    display: none;
+}
+
+#dots-box {
+    width: 40px;
+    position: relative;
+    left: -25px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.color-dots {
+    width: 8px;
+    height: 8px;
+}
+
+
+/* this is the frequently asked questions on mobile view */
+
+.faq {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+.faqboxes {
+    display: flex;
+   /*  justify-content: center; */
+    width: 90%;
+    margin: auto;
+    padding-top: 21px;
+    padding-bottom: 4px;
+    padding-left: 11px;
+    background-color: #F0F0F0;
+    border: none;
+    margin-bottom: 19px;
+
+}
+
+/* .faqboxes {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    background-color: #F0F0F0;
+    border: 1px solid black;
+    margin-bottom: 30px;
+
+} */
+
+.pluscircle {
+    width: 20px;
+    height: 20px;
+}
+
+
+.minuscircle {
+    display: none;
+    width: 20px;
+    height: 20px;
+}
+
+
+.questionbox {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    margin-left: 4%;
+}
+
+
+.questions {
+    font-size: 12px;
+    margin-bottom: 8px;
+    position: relative;
+    bottom: 5px;
+    right: 8px;
+
+}
+
+.answers p {
+    font-size: 10px;
+
+}
+
+
+.questionbox p span {
+    display: block;
+}
+
+.answers {
+    position: relative;
+    right: 8px;
+    bottom: 11px;
+}
+
+
+
+.info-download-box {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.info-download-box a {
+    font-size: 12px;
+}
+
+.info-download-box img {
+    width: 23px;
+    height: 23px;
+    position: relative;
+    top: 7px;
+    margin-right: 3px;
+}
+
+
+
+
+.are-you-ready {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 85%;
+    margin-top: 59px;
+    margin-bottom: 36px
+}
+
+.are-you-ready h2 {
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 26px;
+}
+
+.are-you-ready a {
+    font-size: 18px;
+    padding: 20px 41px;
+    margin-bottom: 18px;
+}
+
+
+.are-you-ready span {
+    display: block;
+}
+
+#upgrade { 
+    display: inline;
+    color: #000;
+}
+
+
+/* this is the css design for the ghost-s page mobile view */
+
+#Ghost-s-page {
+    opacity: 0.5;
+    
+} 
+
+
+.ghost-s_2nd_main {
+    flex-direction: column;
+}
+
+.secondmain-family-imagebox {
+    width: 100%;
+}
+
+#secondmainfamilyimage {
+    width: 100%;
+    height: 326px;
+}
+
+
+.leftof2nd-main {
+    width: 100%;
+    padding: 30px 0px 0px 00px;
+}
+
+
+
+.ghost-s_2nd_main  h1 {
+    font-size: 30px;
+}
+
+
+.ghost-s_2nd_main p {
+    font-size: 20px;
+}
+
+
+.ghost-s_2nd_main a.watch {
+    display: none;
+}
+
+.small-watch {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 132.03%;
+    color: #4D4D4D;
+}
+
+.mobile-watch-review {
+    display: block;
+    text-align: right;
+}
+
+a.three-link-order {
+    color: #FFCE31;
+}
+
+
+
+.vid {
+    width: 13.33px;
+    height: 13.33px;
+    position: relative;
+    top: 3.5px;
+    left: 2px;
+}
+
+.threelinks-box {
+    display: none;
+}
+
+.mobilethreelink-box {
+    display: block;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#mobile-ordernow-arrow {
+    position: relative;
+    top: 7px;
+}
+
+#mobile-whatsapp {
+    margin-right: 32px;
+}
+
+.whats-call  {
+    margin-top: 3px;
+}
+
+
+.threeside-links {
+    margin-right: 27px ;
+}
+
+.yellowlink {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 132.03%;
+    color: #FFCE31;
+}
+
+
+.blacklinks {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 132.03%;
+    color: #323232;
+}
+
+#talk {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 132.03%;
+    color: #323232;
+}
+
+.whats-and-phone {
+    position: relative;
+    top: 7px;
+    left: 3px;
+}
+
+        /* this is the css code for the ghost-s  third box */
+
+.ghost-s-thirdbox {
+    width: 89%;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+.ghost-s-thirdbox h2 {
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+
+#thirdboxp-forpc {
+    display: none;
+}
+
+/* #thirdbox-2ndp {
+    margin-top: 40px;
+} */
+
+
+#thirdboxp-formobile {
+    display: block;
+
+}
+
+#thirdboxp-formobile p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 192%;
+    color: #222222;
+    margin-bottom: 21px;
+}
+
+
+/* this is for ghost-s fourth main box mobile view */
+
+.ghost-s-fourthmainbox {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    background-color: #E8F0FE;
+    padding: 40px 0px 0px 0px;
+    margin-bottom: 20px;
+}
+
+.ghs-4thfirst-inner {
+    padding-top: 61px;
+}
+
+
+.ghs-howitworksmobile {
+    display: block;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 132.03%;
+    color: #222222;
+    text-align: center;
+    margin-bottom: 23px; 
+}
+
+.ghs-howitworksweb  {
+    display: none;
+}
+
+.ghs-4thfirst-inner div h3 {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.ghs-4thfirst-inner div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.ghs-4thfirst-inner div p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 132.03%;
+    color: #222222;
+    margin-top: 26px;
+    margin-left: 0px;   
+}
+
+span#p-child {
+    text-align: center;
+}
+
+.ghs-forthmain-imgbox {
+    display: flex;
+    justify-content: center;
+}
+
+.ghost-s-fourthmainbox div img {
+    display: block;
+    width: 65%;
+    height: 255px;
+}
+
+
+
+/* this  is the fifth main box css for mobile */
+
+.ghs-fifthmainbox {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.ghs-fifthmainbox  div h2 {
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 192%;
+    color: #222222; 
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.ghs-fifthmainbox div p {
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 192%;
+    color: #222222; 
+    margin-bottom: 24px;
+}
+
+.ghs-fifthmainbox div a {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 192%;
+    color: #FCFCFC;
+    background-color: #000000;
+    padding: 12px 24px;
+}
+
+.ght-fifthmain-2ndbox {
+    margin-top: 20px;
+    text-align: center;
+    margin-right: 0%;
+    margin-left: 0px;
+    padding-bottom: 17px
+}
+
+.fifthmain-child {
+    width: 100%;
+}
+
+
+.ghs-fifthmainbox-1stbox {
+    text-align: center;
+}
+
+
+.ghs-fifthmainbox-1stbox img {
+    width: 90%;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* this is the footer for the mobile view */
+
+footer {
+    padding-top: 9%;
+    background-color: #323232;
+    padding-bottom: 5%;
+}
+
+.footer-box {
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    color: #FFFFFF;
+}
+
+/* .first-foot-box {
+    width: 85%;
+    margin: auto;
+} */
+
+a#footmain {
+    width: 85%;
+    margin: auto;
+}
+
+
+
+/* .ft-icon-box {
+    width: 236px;
+    
+} */
+
+
+
+.ghostswitch-footer-logobox {
+    width: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Verdana', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 132.03%;
+    color: #FFFFFF;
+}
+
+#web-footer-icon {
+    display: none;
+}
+
+
+#mobile-footer-icon {
+    display: block;
+}
+
+
+.footmainimage {
+    width: 150px;
+    height: 51px;
+    margin-left: 33px;
+}
+
+
+.footer-box h3 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+
+.footerservice-box a span {
+    margin-bottom: 20px;
+}
+
+.footer-box a {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.footer-box p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 169.53%;
+    margin-bottom: 15px;
+}
+
+
+.products-services {
+    width: 83%;
+    margin: auto;
+    display: block;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.footerproduct-box a {
+    display: block;
+}
+
+.address-contact {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    width: 83%;
+    margin: auto;
+    margin-bottom: 14px;
+}
+
+
+#call-us {
+    margin-top: 0px;
+}
+
+
+.footer-logo {
+    display: flex;
+    justify-content: start;
+    padding-left: 0px;
+    margin-top: 9px;
+}
+
+
+.footericons {
+    margin-left: 30px;
+}
+
+.footiconimage {
+    width: 25.13px; 
+    height: 25.13px;
+}
+
+
+
+
+
+}
