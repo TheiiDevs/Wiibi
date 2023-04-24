@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
 
+@font-face {
+    font-family: TT-Bricks;
+    src: url(fonts/TT-Bricks-Trial-Medium.ttf);
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +15,8 @@
 
 
 body {
+    max-width: 1440px;
+    margin: auto;
     padding-top: 0px;
     font-family: 'Space Grotesk',  sans-serif;
 }
@@ -177,6 +185,26 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
+
+
+#main-icon {
+    font-family: TT-Bricks ;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 132.03%;
+    margin-top: 3px;
+}
+
+#main-landing-icon {
+    position: relative;
+    top: 3px;
+}
+
+
+
+
+
 
 
 
@@ -1165,10 +1193,10 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: 'Verdana', sans-serif;
+    font-family: TT-Bricks ;
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 22px;
     line-height: 132.03%;
     color: #FFFFFF;
 }
@@ -1398,15 +1426,18 @@ footer {
 }
 
 
+#main-icon {
+    font-size: 20px;
+    margin-top:  5px;
+}
 
 
-
-    #main-icon {
+    /* #main-icon {
         width: 95px;
         height: auto;
         padding-top: 6px;
         font-size: 12px;
-    }
+    } */
  
     nav {
         height: 51px;
@@ -2409,7 +2440,7 @@ a#footmain {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: 'Verdana', sans-serif;
+    font-family: TT-Bricks ;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -2423,6 +2454,7 @@ a#footmain {
 
 
 #mobile-footer-icon {
+    height: 28px;
     display: block;
 }
 
