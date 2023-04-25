@@ -1535,6 +1535,8 @@ footer {
         width: 80%;
         height: auto;
         margin: auto;
+        position: relative;
+        left: 9px;
     }
 
 
